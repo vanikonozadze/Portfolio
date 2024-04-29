@@ -1,7 +1,55 @@
 .about-me-container {
-  margin-top: 300px;
-  margin-bottom: 400px;
+  margin-top: 200px;
+  display: flex;
+  background-color: #fff;
+}
+
+.about-me-child-container {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.developer-image {
+  width: 450px;
+}
+
+.about-me-text h2 {
+  margin-bottom: 20px;
+}
+
+.about-me-text p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.skills-container h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+swiper-container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 50px;
+}
+
+swiper-slide {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+swiper-slide p {
+  color: #fff;
+}
+
+.swiper-image {
+  width: 65px;
 }

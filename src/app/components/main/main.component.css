@@ -1,4 +1,8 @@
 .container {
+  background-color: #101820;
+}
+
+.introduction-container {
   width: 800px;
   display: flex;
   justify-content: center;
