@@ -1,0 +1,27 @@
+.nav-bar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 500px;
+  background-color: #000;
+}
+
+.nav-bar p {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav-items {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-items li {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}

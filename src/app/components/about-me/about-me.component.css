@@ -1,0 +1,7 @@
+.about-me-container {
+  margin-top: 300px;
+  margin-bottom: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.container {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-page {
+  scroll-snap-align: start;
+}
