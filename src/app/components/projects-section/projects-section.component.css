@@ -1,0 +1,28 @@
+.projects-container {
+  background-color: #fff;
+  margin-bottom: 200px;
+  padding-top: 50px;
+}
+
+.projects-child-container h1 {
+  text-align: center;
+}
+
+.projects-box {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 50px;
+}
+
+.project-image {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  cursor: pointer;
+}

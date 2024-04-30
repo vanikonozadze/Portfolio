@@ -10,6 +10,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
+import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
 // register Swiper custom elements
 register();
 
@@ -20,6 +21,7 @@ register();
     MainComponent,
     IntroductionComponent,
     AboutMeComponent,
+    ProjectsSectionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
