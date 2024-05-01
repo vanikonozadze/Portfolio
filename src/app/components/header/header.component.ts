@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
     const sectionId = `${target.classList[0].slice(0, -2)}`;
     const element = document.getElementById(sectionId) as HTMLElement;
 
-    console.log(target);
+    console.log(sectionId);
 
     setTimeout(() => {
       element.scrollIntoView({ behavior: 'smooth' });
