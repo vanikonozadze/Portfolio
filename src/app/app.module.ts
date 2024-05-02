@@ -11,6 +11,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
 import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
+import { FooterComponent } from './components/footer/footer.component';
 // register Swiper custom elements
 register();
 
@@ -22,6 +24,8 @@ register();
     IntroductionComponent,
     AboutMeComponent,
     ProjectsSectionComponent,
+    ContactMeComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

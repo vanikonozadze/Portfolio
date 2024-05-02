@@ -1,0 +1,86 @@
+.contact-me-container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  color: #fff;
+}
+
+.contact-me-container h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.contact-me-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-me-text {
+  width: 400px;
+}
+
+.contact-me-text h2 {
+  margin-bottom: 20px;
+  color: #fee715;
+}
+
+.contact-me-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.contact-me-logos a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-me-logos span {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  width: 400px;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: #101820;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.message-input-field {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: #101820;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+button {
+  width: 400px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: #fee715;
+}
