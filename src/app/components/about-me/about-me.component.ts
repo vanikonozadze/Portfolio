@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { animate, style, transition, trigger } from '@angular/animations';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-about-me',
@@ -8,5 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutMeComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit() {
+    AOS.init();
+  }
 }
