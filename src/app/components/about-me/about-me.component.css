@@ -2,6 +2,7 @@
   margin-top: 200px;
   display: flex;
   background-color: #fff;
+  padding-top: 35px;
 }
 
 .about-me-child-container {
@@ -35,7 +36,7 @@
 swiper-container {
   width: 1200px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 35px;
 }
 
 swiper-slide {
