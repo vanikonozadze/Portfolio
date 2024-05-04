@@ -4,3 +4,16 @@
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e2eaf5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#d4ff00, #fdfd00);
+  border-radius: 10px;
+}
