@@ -30,3 +30,8 @@
   font-size: 20px;
   cursor: pointer;
 }
+
+.nav-items li:hover,
+.nav-items li.active {
+  color: yellow;
+}
