@@ -96,10 +96,15 @@ label {
   color: #fff;
 }
 
-button {
+.submit-button {
   width: 400px;
   height: 30px;
   border-radius: 8px;
   border: 1px solid #fff;
   background-color: #fee715;
+}
+
+.submit-button:hover {
+  background-color: #fff7b0;
+  cursor: pointer;
 }

@@ -1,5 +1,5 @@
-
 import { Component, OnInit } from '@angular/core';
+import { ResumeDownloadService } from 'src/app/service/resume-download.service';
 
 @Component({
   selector: 'app-introduction',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./introduction.component.css'],
 })
 export class IntroductionComponent implements OnInit {
-  constructor() {}
+  constructor(private resumeDownloadService: ResumeDownloadService) {}
 
   ngOnInit(): void {}
+
+  downloadResume(): void {
+    this.resumeDownloadService.downloadResume();
+  }
 }
