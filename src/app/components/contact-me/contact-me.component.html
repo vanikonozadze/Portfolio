@@ -73,21 +73,32 @@
         >
       </div>
     </div>
-    <form action="#" class="contact-me-form">
+    <form [formGroup]="form" (submit)="send()" class="contact-me-form">
       <label for="email">Email</label>
-      <input type="email" name="email" class="input-field" />
+      <input
+        formControlName="from_email"
+        type="email"
+        name="email"
+        class="input-field"
+      />
 
       <label for="subject">Subject</label>
-      <input type="text" name="subject" class="input-field" />
+      <input
+        formControlName="subject"
+        type="text"
+        name="subject"
+        class="input-field"
+      />
 
       <label for="message">Message</label>
       <textarea
+        formControlName="message"
         name="message"
         cols="30"
         rows="10"
         class="message-input-field"
       ></textarea>
-      <button>Send message</button>
+      <button type="submit" style="cursor: pointer">Send message</button>
     </form>
   </div>
 </div>

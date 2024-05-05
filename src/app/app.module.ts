@@ -14,6 +14,7 @@ import { register } from 'swiper/element/bundle';
 import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ReactiveFormsModule } from '@angular/forms';
 // register Swiper custom elements
 register();
 
@@ -28,7 +29,12 @@ register();
     ContactMeComponent,
     FooterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
