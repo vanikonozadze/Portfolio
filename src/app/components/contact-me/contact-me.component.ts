@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import AOS from 'aos';
 import emailjs from '@emailjs/browser';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contact-me',
@@ -10,9 +10,9 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class ContactMeComponent implements OnInit {
   form: FormGroup = this.fb.group({
-    from_email: '',
-    subject: '',
-    message: '',
+    from_email: ['', [Validators.required, Validators.email]],
+    subject: ['', Validators.required],
+    message: ['', Validators.required],
   });
 
   constructor(private fb: FormBuilder) {}
@@ -22,6 +22,14 @@ export class ContactMeComponent implements OnInit {
   }
 
   async send() {
+    if (this.form.get('from_email')?.invalid) {
+      alert('Please fill email input correctly');
+      return;
+    } else if (this.form.invalid) {
+      alert('Please fill all required fields');
+      return;
+    }
+
     emailjs.init('kLtsQLPvwAtqgoR_w');
     let response = await emailjs.send('service_6n2943l', 'template_9yujrls', {
       subject: this.form.value.subject,
@@ -33,11 +41,3 @@ export class ContactMeComponent implements OnInit {
     this.form.reset();
   }
 }
-
-/* 
-emailjs.send("service_6n2943l","template_9yujrls",{
-subject: "TEST",
-message: "Test message",
-from_email: "ivane.nozadze.1@btu.edu.ge",
-});
-*/
