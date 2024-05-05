@@ -19,6 +19,7 @@
 }
 
 .about-me-text h2 {
+  font-size: 46px;
   margin-bottom: 20px;
 }
 
@@ -31,6 +32,7 @@
   color: #fff;
   text-align: center;
   padding-top: 20px;
+  font-size: 40px;
 }
 
 swiper-container {
@@ -49,6 +51,7 @@ swiper-slide {
 
 swiper-slide p {
   color: #fff;
+  margin-top: 10px;
 }
 
 .swiper-image {

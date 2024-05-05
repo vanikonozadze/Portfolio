@@ -3,7 +3,7 @@
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   color: #fff;
   margin-bottom: 10px;
 }
@@ -37,4 +37,9 @@ button {
   background-color: #fee715;
   color: #fff;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff7b0;
+  color: #000;
 }

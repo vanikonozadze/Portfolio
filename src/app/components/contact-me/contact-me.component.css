@@ -11,6 +11,7 @@
   margin-top: 30px;
   margin-bottom: 50px;
   color: #fff;
+  font-size: 46px;
 }
 
 .contact-me-box {
@@ -53,7 +54,6 @@
 
 .contact-me-logos span:hover {
   color: #fee715;
-  cursor: pointer;
 }
 
 .contact-me-logos span:hover svg path {
