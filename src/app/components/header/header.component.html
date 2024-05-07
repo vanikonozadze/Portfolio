@@ -1,9 +1,58 @@
 <nav class="nav-bar">
   <a href="#">Vaniko Nozadze</a>
+  <div
+    class="burger-menu"
+    [ngClass]="{ active: menuOpen }"
+    (click)="toggleMenu()"
+  >
+    <svg
+      height="32px"
+      id="Layer_1"
+      style="enable-background: new 0 0 32 32"
+      version="1.1"
+      viewBox="0 0 32 32"
+      width="32px"
+      xml:space="preserve"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path
+        d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
+        fill="#fff"
+      />
+    </svg>
+  </div>
   <ul class="nav-items">
     <li class="home" (click)="aboutMeFunction($event)">Home</li>
     <li class="about" (click)="aboutMeFunction($event)">About</li>
     <li class="projects" (click)="aboutMeFunction($event)">Projects</li>
     <li class="contact" (click)="aboutMeFunction($event)">Contact</li>
   </ul>
+  <div
+    class="burger-nav-items-box"
+    (click)="toggleMenu()"
+    [ngClass]="{ active: !menuOpen }"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      x="0px"
+      y="0px"
+      width="30"
+      height="30"
+      viewBox="0 0 50 50"
+      class="close-button"
+      [ngClass]="{ active: !menuOpen }"
+    >
+      <path
+        d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"
+        fill="#fff"
+      ></path>
+    </svg>
+    <ul class="burger-nav-items" [ngClass]="{ active: !menuOpen }">
+      <li class="home" (click)="aboutMeFunction($event)">Home</li>
+      <li class="about" (click)="aboutMeFunction($event)">About</li>
+      <li class="projects" (click)="aboutMeFunction($event)">Projects</li>
+      <li class="contact" (click)="aboutMeFunction($event)">Contact</li>
+    </ul>
+  </div>
 </nav>

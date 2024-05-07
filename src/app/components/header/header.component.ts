@@ -6,9 +6,15 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
+  menuOpen: boolean = false;
+
   constructor() {}
 
   ngOnInit(): void {}
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
 
   aboutMeFunction(event: MouseEvent) {
     const target = event.currentTarget as HTMLElement;
