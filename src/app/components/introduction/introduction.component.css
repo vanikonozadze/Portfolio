@@ -43,3 +43,17 @@ button:hover {
   background-color: #fff7b0;
   color: #000;
 }
+
+@media screen and (max-width: 1080px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .intro-container {
+    width: 80%;
+  }
+}

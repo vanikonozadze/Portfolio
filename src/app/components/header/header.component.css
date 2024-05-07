@@ -2,12 +2,11 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1090px;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 500px;
   background-color: #101820;
   color: #fff;
   z-index: 1000;
@@ -41,4 +40,15 @@
 .nav-items li:hover,
 .nav-items li.active {
   color: yellow;
+}
+
+@media screen and (max-width: 1080px) {
+  .nav-bar {
+    position: relative;
+    width: 90%;
+  }
+
+  .nav-items {
+    display: none;
+  }
 }

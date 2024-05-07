@@ -120,3 +120,17 @@ a {
 .project:hover .project-info {
   height: 100%;
 }
+
+@media screen and (max-width: 1080px) {
+  .projects-box {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 80px;
+  }
+}

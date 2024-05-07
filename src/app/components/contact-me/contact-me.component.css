@@ -108,3 +108,13 @@ label {
   background-color: #fff7b0;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1080px) {
+  .contact-me-container {
+    width: 90%;
+  }
+
+  .contact-me-box {
+    flex-direction: column;
+  }
+}
