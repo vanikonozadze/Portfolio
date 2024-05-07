@@ -159,3 +159,17 @@ label {
     width: 400px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .input-field {
+    width: 300px;
+  }
+
+  .message-input-field {
+    width: 300px;
+  }
+
+  .submit-button {
+    width: 90%;
+  }
+}

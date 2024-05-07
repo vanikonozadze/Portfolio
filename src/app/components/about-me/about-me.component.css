@@ -133,4 +133,8 @@ swiper-slide p {
   .swiper-image {
     width: 40%;
   }
+
+  p {
+    font-size: 12px;
+  }
 }

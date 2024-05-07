@@ -163,3 +163,9 @@ a {
     gap: 80px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .project {
+    width: 300px;
+  }
+}
