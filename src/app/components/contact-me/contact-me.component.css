@@ -117,4 +117,45 @@ label {
   .contact-me-box {
     flex-direction: column;
   }
+
+  .contact-me-text {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-me-logos {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contact-me-form {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .input-field {
+    width: 600px;
+  }
+
+  .message-input-field {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-me-logos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-field {
+    width: 400px;
+  }
+
+  .message-input-field {
+    width: 400px;
+  }
 }

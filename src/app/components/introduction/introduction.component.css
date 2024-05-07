@@ -1,5 +1,6 @@
 .intro-container {
   padding-top: 200px;
+  text-align: center;
 }
 
 h1 {
@@ -17,13 +18,16 @@ h2 {
 .software-engineer-text {
   display: flex;
   gap: 10px;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   margin-bottom: 30px;
   color: #fff;
 }
 
 p {
   font-size: 20px;
+  margin: 0 auto;
   color: #fbeaeb;
 }
 
@@ -44,16 +48,8 @@ button:hover {
   color: #000;
 }
 
-@media screen and (max-width: 1080px) {
-  .desktop {
-    display: none;
-  }
-
-  .mobile {
-    display: block;
-  }
-
-  .intro-container {
-    width: 80%;
+@media screen and (max-width: 768px) {
+  .software-engineer-text {
+    flex-direction: column;
   }
 }

@@ -121,10 +121,39 @@ a {
   height: 100%;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1440px) {
   .projects-box {
     width: 50%;
     margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 80px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .project {
+    width: 350px;
+  }
+  .projects-box {
+    width: 50%;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-box {
+    width: 50%;
     margin-top: 50px;
     display: grid;
     justify-content: center;

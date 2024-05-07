@@ -67,6 +67,20 @@ swiper-slide p {
   display: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  swiper-container {
+    width: 600px;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .desktop {
     display: none;
@@ -78,5 +92,45 @@ swiper-slide p {
 
   swiper-container {
     width: 600px;
+  }
+
+  .about-me-child-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .about-me-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about-me-text p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .developer-image {
+    width: 60%;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  swiper-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  swiper-slider {
+    width: 90%;
+  }
+
+  .swiper-image {
+    width: 40%;
   }
 }
