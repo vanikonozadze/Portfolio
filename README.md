@@ -1,27 +1,35 @@
 # Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+Welcome to my Angular Portfolio! This project serves as a digital showcase of my work, experience, and personality as a software engineer. Built using Angular framework, this portfolio is designed to provide visitors with an engaging and responsive experience.
 
-## Development server
+## Features:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Angular Framework:** The portfolio is developed using Angular, offering a robust and scalable foundation for building dynamic web applications.
 
-## Code scaffolding
+2. **Personal Introduction:** Beyond showcasing projects and experience, the portfolio provides a glimpse into who I am as a person and as a software engineer. I believe in the importance of connecting on a personal level, and this portfolio reflects that ethos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. **Resume Download:** Visitors have the option to download my resume directly from the portfolio, gaining insights into my professional background, skills, and accomplishments.
+   
+4. **Animations AOS Library:** Leveraging the power of the Animations AOS library, the portfolio incorporates subtle animations to enhance user interactions and visual appeal.
 
-## Build
+5. **Skills Showcase:** The portfolio prominently displays my skills as a software engineer. From languages like C# and TypeScript to frameworks and tools, visitors can quickly understand my technical expertise and capabilities.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+6. **Contact Form:** A contact form is implemented within the portfolio, allowing users to easily send me an email directly from the website. Whether it's a project inquiry or just a friendly message, I'm always eager to hear from visitors.
 
-## Running unit tests
+7. **Fully Responsive Design:** Ensuring accessibility across devices, the portfolio is crafted with a fully responsive design, adapting seamlessly to various screen sizes and orientations.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Getting Started:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To explore my portfolio locally, follow these steps:
 
-## Further help
+1. Clone this repository to your local machine.
+2. Install dependencies by running `npm install`.
+3. Launch the development server with `ng serve`.
+4. Open your browser and navigate to `http://localhost:4200` to view the portfolio.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contact:
+
+Thank you for visiting my Angular Portfolio! If you have any questions, feedback, or just want to connect, feel free to reach out to me via email: [vaniko.nozadze11@gmail.com](mailto:your.email@example.com).
+
+Let's connect and create something amazing together!
