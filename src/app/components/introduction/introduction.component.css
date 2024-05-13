@@ -1,7 +1,9 @@
 .intro-container {
-  padding-top: 200px;
   text-align: center;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
@@ -38,10 +40,11 @@ button {
   border: none;
   height: 50px;
   font-size: 16px;
-  margin-top: 50px;
   background-color: #fee715;
   color: #fff;
   cursor: pointer;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 button:hover {

@@ -1,7 +1,3 @@
-.master-container {
-  height: 100vh;
-}
-
 .about-me-container {
   display: flex;
   background-color: #fff;
@@ -29,6 +25,11 @@
 .about-me-text p {
   line-height: 1.5;
   margin-bottom: 20px;
+}
+
+.skills-container {
+  height: 20vh;
+  height: 250px;
 }
 
 .skills-container h1 {
