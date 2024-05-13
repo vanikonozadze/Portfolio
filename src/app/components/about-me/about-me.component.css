@@ -1,5 +1,8 @@
+.master-container {
+  height: 100vh;
+}
+
 .about-me-container {
-  margin-top: 200px;
   display: flex;
   background-color: #fff;
   padding-top: 35px;
@@ -38,7 +41,7 @@
 swiper-container {
   width: 1200px;
   margin: 0 auto;
-  padding: 35px;
+  padding: 20px;
 }
 
 swiper-slide {
