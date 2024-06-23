@@ -9,7 +9,7 @@ export class ResumeDownloadService {
 
   downloadResume(): void {
     this.http
-      .get('../../assets/documents/Vaniko-Nozadze-Resume.pdf', {
+      .get('../../assets/documents/Vaniko-Nozadze-CV.pdf', {
         responseType: 'blob',
       })
       .subscribe((res: Blob) => {
