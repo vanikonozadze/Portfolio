@@ -17,7 +17,7 @@ export class ResumeDownloadService {
         const a = document.createElement('a');
         document.body.appendChild(a);
         a.href = url;
-        a.download = 'Vaniko-Nozadze-CV.pdf';
+        a.download = 'Vaniko-Nozadze-CV..pdf';
         a.click();
         window.URL.revokeObjectURL(url);
       });
